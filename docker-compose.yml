@@ -1,0 +1,19 @@
+version: "3.9"
+services:
+  server:
+    build:  ./server
+    ports: 
+    - "5000:5000"
+    volumes: 
+    - ./server:/app
+    environment: 
+      FLASK_ENV: development
+  web:
+    build: ./client/my-app 
+    ports: 
+      - "3000:3000"
+    volumes: 
+      - ./client/my-app:/user/src/app
+    depends_on: 
+      - server
+
