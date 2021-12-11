@@ -18,8 +18,8 @@ It just means something went wrong when dependencies were installed the first ti
 
 I suggest doing these three steps:
 
-- npm install -g npm@latest to update npm because it is sometimes buggy.
-- rm -rf node_modules to remove the existing modules.
-- npm install to re-install the project dependencies.
+- `npm install -g npm@latest` to update npm because it is sometimes buggy.
+- `rm -rf node_modules` to remove the existing modules.
+- `npm install` to re-install the project dependencies.
 
 Source - [Here By Dan Abramov](https://stackoverflow.com/questions/39959900/npm-start-error-with-create-react-app)
