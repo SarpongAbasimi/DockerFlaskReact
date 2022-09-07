@@ -23,3 +23,7 @@ I suggest doing these three steps:
 - `npm install` to re-install the project dependencies.
 
 Source - [Here By Dan Abramov](https://stackoverflow.com/questions/39959900/npm-start-error-with-create-react-app)
+
+### Infrastructure model
+
+![Infrastructure model](.infragenie/infrastructure_model.png)
